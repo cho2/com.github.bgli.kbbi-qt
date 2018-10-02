@@ -1,0 +1,42 @@
+{
+	"app-id": "com.github.bgli.kbbi-qt",
+	"runtime": "org.kde.Platform",
+	"runtime-version": "5.11",
+	"sdk": "org.kde.Sdk",
+	"command": "/usr/bin/KBBI-Qt",
+	"finish-args": [
+		"--socket=x11",
+		"--share=ipc",
+		"--share=network",
+		"--device=dri"
+	],
+	"modules": [
+		{
+			"name": "kbbi-qt",
+            "buildsystem": "simple",
+            "build-commands": [
+                "qmake",
+                "make"
+            ],
+			"sources": [
+				{
+					"type": "file",
+					"path": "com.github.bgli.kbbi-qt.desktop"
+				},
+				{
+					"type": "file",
+					"path": "com.github.bgli.kbbi-qt.png"
+				},
+				{
+					"type": "file",
+					"path": "com.github.bgli.kbbi-qt.xml"
+				},
+				{
+					"type": "archive",
+					"url": "https://github.com/bgli/kbbi-qt/archive/v1.1.tar.gz",
+					"sha256": "e858907628fb37789187b98dede196993bc7aaec88dbae9bb05683d576ef4aff"
+				}
+			]
+		}
+	]
+}

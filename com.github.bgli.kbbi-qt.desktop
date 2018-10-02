@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=KBBI-Qt
+Exec=kbbi-qt
+Terminal=false
+Type=Application
+Icon=kbbo-qt
+Categories=Educations
+Name[id_ID]=com.github.bgli.kbbi.desktop

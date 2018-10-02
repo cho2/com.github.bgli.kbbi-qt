@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.github.bgli.kbbi-qt</id>
+  <launchable type="desktop-id">com.github.bgli.kbbi-qt.desktop</launchable>
+  <name>KBBI-Qt</name>
+  <summary>Dictionary</summary>
+  <description>KBBI-Qt Indonesian dictionary  </description>
+  <url type="homepage">https://github.com/bgli/kbbi-qt</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/bgli/kbbi-qt/master/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="1.1" date="2017-03-16"></release>
+  </releases>
+</component>
